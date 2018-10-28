@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Space Mono', monospace;
+  color: #fff;
+}
+
+.landing-page {
+  height: 100vh;
+}
+
+.landing-page__bg {
+  background: url('../images/yokohama.jpg') center center  no-repeat;
+  background-size: cover;
+  filter: blur(5px);
+  height: 100vh;
+  -webkit-filter: blur(5px);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.landing-page__content {
+  align-items: center;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: relative;
+  top: 0;
+  z-index: 2;
+}
+
+.landing-page__logo {
+  display: block;
+  max-width: 80px;
+}
